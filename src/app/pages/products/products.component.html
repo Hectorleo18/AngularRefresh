@@ -1,0 +1,3 @@
+<section class="products">
+  <app-product [product]="product" *ngFor="let product of products" (cardToClick)="addToCard($event)"></app-product>
+</section>
